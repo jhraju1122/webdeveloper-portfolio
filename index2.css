@@ -27,6 +27,7 @@ font-weight: 800;
  padding: 15px 35px;
  color: white;
  font-weight: 800;
+ border-color: white;
 
 }
 
@@ -45,8 +46,68 @@ nav a{
 /* header related style  */
 .header{
     background-color: #fff;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400px;
+    
+}
+
+/* main section styles  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+
+}
+/* about section styles  */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 150px 150px 150px 150px;
+}
+.section-title{
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #474747;
+    
+}
+.info-description{
+    color: #474747;
+    
+  
 }
