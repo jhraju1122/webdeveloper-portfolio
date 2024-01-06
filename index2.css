@@ -7,6 +7,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -39,4 +40,13 @@ nav li{
 nav a{
     text-decoration: none;
     margin-right: 20px;
+}
+
+/* header related style  */
+.header{
+    background-color: #fff;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
 }
