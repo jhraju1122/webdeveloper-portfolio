@@ -2,6 +2,7 @@
 /* shared styles */
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #e1d9d9;
 }
 /* Nav related styles */
 nav{
@@ -110,4 +111,33 @@ main{
     color: #474747;
     
   
+}
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+/* what i do section  */
+.skills-container{
+    display: flex;
+    justify-content: center;
+ padding: 90px -10px 0px 0;
+ margin-bottom: 50px;
+
+}
+.skill-title{
+   font-weight: 700;
+   font-size: 20px;
+}
+.skill{
+    /* border: 1px solid #fefafa; */
+    margin-right: 20px;
+    
+     background-color: #fff8f8;
+     border-radius: 4px;
+     padding: 5px 5px;
+ 
+}
+.skill-description{
+    color: #757575;
 }
