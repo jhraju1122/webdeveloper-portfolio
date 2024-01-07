@@ -46,7 +46,7 @@ nav a{
 
 /* header related style  */
 .header{
-    background-color: #fff;
+    background-color: #FFF8F3;
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -56,6 +56,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 .banner-content{
@@ -67,13 +68,13 @@ nav a{
 }
 .banner-greeting{
     font-size: 45px;
-    color: #474747;
+    color: #9f9d9d;
     margin-bottom: 0;
     margin-top: 5px;
 }
 .banner-description{
     font-size: 18px;
-    color: #757575;
+    color: hsl(0, 1%, 38%);
     font-weight: 400px;
     
 }
@@ -193,9 +194,11 @@ footer{
   justify-content: space-around;
   background-color: #FFF8F3;
   padding: 130px 200px;
+ 
+ 
 }
 .footer-column{
-
+ width: 50%;
 }
 .footer-column-title{
 
@@ -203,6 +206,17 @@ footer{
 .footer-column-description{
 
 }
-.social-links{
-
+.social-links a{
+margin-right: 25px;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
 }
