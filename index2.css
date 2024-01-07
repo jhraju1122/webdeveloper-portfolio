@@ -86,6 +86,10 @@ main{
 .about-info-container{
 
 }
+main section{
+    margin-top: 130px;
+
+}
 /* about section styles  */
 .about{
     padding: 130px;
@@ -140,4 +144,17 @@ main{
 }
 .skill-description{
     color: #757575;
+}
+
+/*....... resume container ............ */
+.resume-container{
+display: flex;
+}
+.resume-column{
+    
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
