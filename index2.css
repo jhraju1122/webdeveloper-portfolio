@@ -149,6 +149,7 @@ main section{
 /*....... resume container ............ */
 .resume-container{
 display: flex;
+gap: 50px;
 }
 .resume-column{
     
@@ -157,4 +158,30 @@ display: flex;
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    
+}
+.resume-item{
+
+}
+.resume-item-title{
+font-size: 25px;
+color:#474747 ;
+margin-bottom: 10px;
+}
+.resume-item-institute{
+color: #474747;
+font-size: 20px;
+margin-bottom: 20px;
+margin-top: 0;
+}
+.resume-item-description{
+font-size: 16px;
+color:#474747;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
