@@ -220,3 +220,55 @@ margin-right: 25px;
     border: 0;
     width: 100%;
 }
+
+/*--------------------- responsive styles ------------------ */
+/* ------------display hide --------- */
+.hide{
+    display: none;
+}
+/* ------------for mobile device---------- */
+@media  screen and (max-width:576px) {
+    .header{
+        background-image: none;
+       
+    }
+    .banner{
+        flex-direction: column;
+    }
+    nav> ul {
+            flex-direction: column;
+    }
+    .banner .profile-picture{
+        width: 100%;
+       
+    }
+  .header, .skills-container, .resume-container{
+        flex-direction:column;
+        gap: 10px;
+    }
+    nav>ul footer, nav ,.about, .about-info-container {
+        flex-direction:column;
+     padding: 10px;
+    }
+    .footer-column{
+        width: 50%;
+       }
+       footer{
+        flex-direction: column;
+       }
+}
+ 
+@media screen and (min-width:576px) and (max-width:960px) {
+    .skills-container, .resume-container{
+        flex-direction:column;
+        gap: 10px;
+    }
+    footer, .about, .about-info-container {
+        flex-direction:column;
+     padding: 10px;
+    }
+    .footer-column{
+        width: 50%;
+       }
+}
+}
